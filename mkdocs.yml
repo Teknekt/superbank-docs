@@ -7,8 +7,11 @@ theme:
     - navigation.instant
     - navigation.sections
     - content.code.copy
+    - content.action.edit
 
 repo_url: https://github.com/Teknekt/superbank-docs
+repo_name: GitHub
+edit_uri: edit/main/docs/
 
 nav:
   - Home: index.md
@@ -17,3 +20,22 @@ nav:
   - Sidecar Schema: sidecar-schema.md
   - Pack Anatomy: pack-anatomy.md
   - Profiles: profiles.md
+
+plugins:
+  - search
+  - sitemap:
+      url: https://teknekt.github.io/superbank-docs/
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Teknekt/superbank
