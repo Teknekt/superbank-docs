@@ -1,19 +1,19 @@
-﻿
-### Update `mkdocs.yml` (replace the `nav:` section only if you’ve been following our earlier layout)
-```yaml
-site_name: SuperBank
+﻿site_name: SuperBank
+site_url: https://teknekt.github.io/superbank-docs/
+
 theme:
   name: material
   features:
     - navigation.instant
     - navigation.sections
     - content.code.copy
-repo_url: https://github.com/Teknekt/superbank
+
+repo_url: https://github.com/Teknekt/superbank-docs
 
 nav:
-  - Home: docs/index.md
-  - Quickstart: docs/quickstart.md
-  - Plugin Spec: docs/plugin-spec.md
-  - Sidecar Schema: docs/sidecar-schema.md
-  - Pack Anatomy: docs/pack-anatomy.md
-  - Pack Profiles: docs/profiles.md
+  - Home: index.md
+  - Quickstart: quickstart.md
+  - Plugin Spec: plugin-spec.md
+  - Sidecar Schema: sidecar-schema.md
+  - Pack Anatomy: pack-anatomy.md
+  - Profiles: profiles.md
